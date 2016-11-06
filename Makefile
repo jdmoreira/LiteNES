@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -MD -O2 -I./include -Wall -Werror
-LDFLAGS = -lallegro -lallegro_main -lallegro_primitives
+LDFLAGS = -lSDL2
 
 CFILES = $(shell find src/ -name "*.c")
 OBJS = $(CFILES:.c=.o)
