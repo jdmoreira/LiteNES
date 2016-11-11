@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -MD -O2 -I./include -Wall -Werror
+CFLAGS = -MD -O2 -Wall -Werror
 LDFLAGS = -lSDL2
 
 CFILES = $(shell find src/ -name "*.c")
